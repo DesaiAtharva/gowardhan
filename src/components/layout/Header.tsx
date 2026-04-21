@@ -60,23 +60,23 @@ export default function Header() {
         {navItems.map((item) => (
           <ListItem key={item.path} disablePadding sx={{ textAlign: 'center', mb: 2 }}>
             <Link href={item.path} style={{ width: '100%' }} onClick={handleDrawerToggle}>
-              <ListItemText 
-                primary={item.label} 
-                primaryTypographyProps={{ 
-                  fontSize: '1.2rem', 
-                  sx: { 
+              <ListItemText
+                primary={item.label}
+                primaryTypographyProps={{
+                  fontSize: '1.2rem',
+                  sx: {
                     color: pathname === item.path ? '#C9A14A' : '#FFFFFF',
                     fontWeight: pathname === item.path ? 700 : 400
-                  } 
-                }} 
+                  }
+                }}
               />
             </Link>
           </ListItem>
         ))}
       </List>
-      <Button 
-        variant="contained" 
-        fullWidth 
+      <Button
+        variant="contained"
+        fullWidth
         sx={{ mt: 4, backgroundColor: '#C9A14A', '&:hover': { backgroundColor: '#A68239' } }}
       >
         Enquire Now
@@ -86,9 +86,9 @@ export default function Header() {
 
   return (
     <>
-      <AppBar 
-        position="fixed" 
-        sx={{ 
+      <AppBar
+        position="fixed"
+        sx={{
           backgroundColor: scrolled ? 'rgba(26, 26, 26, 0.95)' : 'transparent',
           boxShadow: scrolled ? '0 4px 20px rgba(0,0,0,0.1)' : 'none',
           transition: 'all 0.3s ease-in-out',
@@ -124,7 +124,7 @@ export default function Header() {
                   key={item.path}
                   component={Link}
                   href={item.path}
-                   sx={{
+                  sx={{
                     mx: 1,
                     color: 'inherit',
                     display: 'block',
@@ -149,8 +149,8 @@ export default function Header() {
                   {item.label}
                 </Button>
               ))}
-              <Button 
-                variant="contained" 
+              <Button
+                variant="contained"
                 color="primary"
                 sx={{ ml: 2, px: 3 }}
               >

@@ -31,7 +31,7 @@ export default function AboutPage() {
       >
         <Container maxWidth="lg">
           <Typography variant="h2" sx={{ mb: 2, fontFamily: 'var(--font-playfair-display)' }}>
-             Our <span style={{ color: '#C9A14A' }}>Story</span>
+            Our <span style={{ color: '#C9A14A' }}>Story</span>
           </Typography>
           <Typography variant="h6" sx={{ fontWeight: 400, opacity: 0.8 }}>
             A legacy built on trust, innovation, and architectural brilliance since 2010.
@@ -84,9 +84,9 @@ export default function AboutPage() {
           {leaders.map((leader, index) => (
             <Grid item xs={12} sm={4} key={index}>
               <Box sx={{ textAlign: 'center' }}>
-                <Avatar 
-                  src={leader.image} 
-                  sx={{ width: 200, height: 200, mx: 'auto', mb: 3, border: '4px solid #C9A14A' }} 
+                <Avatar
+                  src={leader.image}
+                  sx={{ width: 200, height: 200, mx: 'auto', mb: 3, border: '4px solid #C9A14A' }}
                 />
                 <Typography variant="h5" sx={{ fontWeight: 700 }}>{leader.name}</Typography>
                 <Typography variant="subtitle1" sx={{ color: '#C9A14A' }}>{leader.role}</Typography>

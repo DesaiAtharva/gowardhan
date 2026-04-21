@@ -20,13 +20,13 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: '1',
-    name: 'Gowardhan Royale',
-    slug: 'gowardhan-royale',
+    name: 'Govardhan Royale',
+    slug: 'govardhan-royale',
     location: 'Baner, Pune',
     status: 'ongoing',
     type: '3 & 4 BHK Luxury Apartments',
     price: '₹2.5 Cr onwards',
-    description: 'Experience the pinnacle of luxury living at Gowardhan Royale. Situated in the heart of Baner, this project offers spacious apartments with state-of-the-art amenities and breathtaking views.',
+    description: 'Experience the pinnacle of luxury living at Govardhan Royale. Situated in the heart of Baner, this project offers spacious apartments with state-of-the-art amenities and breathtaking views.',
     shortDescription: 'Ultra-luxury living in the heart of Baner.',
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1000',
     gallery: [
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     price: '₹1.8 Cr onwards',
     description: 'Golden Crest is a landmark development in Kothrud, offering a perfect blend of modern architecture and traditional values. A sanctuary for families seeking comfort and elegance.',
     shortDescription: 'Elegant homes for a sophisticated lifestyle.',
-    image: 'https://images.unsplash.com/photo-1600607687940-47a04b629b67?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000',
     gallery: [
       'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&q=80&w=1000',
     ],
